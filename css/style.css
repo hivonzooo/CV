@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+*, *:before, *:after {
+  	box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a.download {
+  color: white;
+  background-color: #4CAF50;
+}
+
+li a:hover:not(.download) {
+	background-color: #ddd;
+	color: black;
+}
+
+.download {
+    background-color: #4A51C9;
+}
+
+.download:hover {
+	background-color: #7AB47D;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	margin-bottom: 16px;
+	margin-top: 16px;
+	padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  	padding: 0 16px;
+
+}
+
+.info::after, .row::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+
+.title {
+  	color: grey;
+}
+
+.button {
+	  border: none;
+	  outline: 0;
+	  display: inline-block;
+	  padding: 8px;
+	  color: white;
+	  background-color: #4CAF50;
+	  text-align: center;
+	  cursor: pointer;
+	  width: 100%;
+}
+
+.button:hover {
+  	background-color: #7AB47D;
+}
+
+img {
+	width: 100%;
+}
+
+.skills {
+	width: 100%;
+	background-color: #ddd;
+}
+
+.skill {
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.html {
+	width: 90%;
+	background-color: #4CAF50;
+}
+
+.css {
+	width: 80%;
+	background-color: #2196F3;
+}
+
+.php {
+	width: 65%; 
+	background-color: #f44336;
+}
+
+.javascript {
+	width: 60%; 
+	background-color: #808080;
+}
+
+.column_skills {
+	float: left;
+	width: 75%;
+	margin-bottom: 16px;
+	margin-top: 16px;
+	padding: 0 8px;
+}
+
+
+
+

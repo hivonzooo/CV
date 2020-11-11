@@ -2,7 +2,7 @@
 
 body {
 	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica;
 }
 
 ul.topnav {
@@ -37,9 +37,56 @@ ul.topnav li.right {
 	float: right;
 }
 
-@media screen and (max-width: 650px) {
+.content {
+	padding: 20px;
+	background: #f1f1f1;
+}
+
+.left_column {
+	float: left;
+	width: 25%;
+}
+
+.right_column {
+	width: 75%;
+	padding-left: 20px;
+}
+
+.profile_image {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+	height: 100px;
+}
+
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.content:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer {
+  	padding: 20px;
+  	text-align: center;
+  	background: #333;
+	color: white;
+  	margin-top: 20px;
+	clear: both;
+}
+
+@media screen and (max-width: 800px) {
 	ul.topnav li.right,
 	ul.topnav li {
 		float: none;
+	}
+	.left_column .right_column {
+		width: 100%;
+		padding: 0;
 	}
 }

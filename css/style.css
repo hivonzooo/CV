@@ -55,9 +55,9 @@ ul.topnav li.right {
 
 .profile_image {
 	background-color: #aaa;
-	width: auto;
+	width: 50%;
 	padding: 20px;
-	height: auto;
+	height: 50%;
 }
 
 .card {

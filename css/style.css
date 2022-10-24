@@ -96,7 +96,7 @@ ul.social_media {
 }
 
 ul.social_media li {
-	float: inherit;
+	float: left;
 }
 
 ul.social_media li a {

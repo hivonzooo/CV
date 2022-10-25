@@ -56,9 +56,10 @@ ul.topnav li.right {
 
 .profile_image {
 	background-color: #aaa;
-	width: 100px;
+	width: auto;
+	height: auto;
 	padding: 20px;
-	height: 100px;
+	object-fit: contain;
 }
 
 .card {

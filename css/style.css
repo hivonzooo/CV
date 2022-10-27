@@ -54,6 +54,10 @@ ul.topnav li.right {
 	padding-left: 20px;
 }
 
+img {
+	border-radius: 50%;
+  }
+
 .profile_image {
 	background-color: #aaa;
 	width: auto;

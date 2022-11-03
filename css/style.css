@@ -67,6 +67,7 @@ img {
   }
 
 .profile_image {
+	border-radius: 15px;
 	background-color: #aaa;
 	width: auto;
 	height: auto;

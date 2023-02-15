@@ -36,7 +36,7 @@ function RemoveClass(element, name) {
 var tags = document.getElementById("tags");
 var tag = tags.getElementsByClassName("tag");
 for (var i = 0; i < tag.length; i++) {
-    tag[i].addEventListener("click", function() {
+    tag[i].addEventListener("click", function(){
         var current = document.getElementsByClassName("active");
         current[0].className = current[0].className.replace(" active", "");
         this.className += "active";

@@ -47,6 +47,12 @@ ul.topnav li.right {
 	background: #f1f1f1;
 }
 
+.column {
+	float: left;
+	width: 33.33%;
+	display: none;
+}
+
 .left_column {
 	float: left;
 	width: 20%;
@@ -56,6 +62,38 @@ ul.topnav li.right {
 	float: right;
 	width: 75%;
 	padding-left: 20px;
+}
+
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.show {
+	display: block;
+}
+
+.tag {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.tag:hover {
+	background-color: #ddd;
+}
+
+.tag:active {
+	background-color: #666;
+	color: white;
 }
 
 img {

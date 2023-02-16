@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+* {
+	box-sizing: border-box;
+  }
+
 body {
 	margin: 0;
 	font-family: Arial, Helvetica;
@@ -16,10 +20,6 @@ ul.topnav {
 	overflow: hidden;
 	background-color: #333;
 }
-
-* {
-	box-sizing: border-box;
-  }
 
 ul.topnav li {
 	float: left;

@@ -17,6 +17,10 @@ ul.topnav {
 	background-color: #333;
 }
 
+* {
+	box-sizing: border-box;
+  }
+
 ul.topnav li {
 	float: left;
 }
